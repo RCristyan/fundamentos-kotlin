@@ -1,7 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import fundamentos.Pessoa
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    val jose = Pessoa("José", 48)
+    val maria = Pessoa("Maria", 55)
+
+    println(jose)
+    println(maria)
 }
